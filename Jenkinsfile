@@ -4,14 +4,9 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World Sourav'
+                echo 'Hello World Sourav Prod Branch'
             }
         }
-
-        stage('Demo Poll SCM') {
-            steps {
-                echo 'Demo Poll SCM'
-            }
-        }
+       
     }
 }
